@@ -15,16 +15,7 @@
     -webkit-border-radius: 0px 45px 45px 0px; 
 
     height: 150px;
-    font-weight:bolder;
-        
-    /*
-    background-image: -ms-linear-gradient(left, #64BD49 0%, #75DE56 60%, #EEEEEE 100%);
-    background-image: -moz-linear-gradient(left, #64BD49 0%, #75DE56 60%, #EEEEEE 100%);
-    background-image: -o-linear-gradient(left, #64BD49 0%, #75DE56 60%, #EEEEEE 100%); 
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #64BD49), color-stop(0.6, #75DE56), color-stop(1, #EEEEEE));
-    background-image: -webkit-linear-gradient(left, #64BD49 0%, #75DE56 60%, #EEEEEE 100%);
-    background-image: linear-gradient(to right, #64BD49 0%, #75DE56 60%, #EEEEEE 100%);*/
-    
+    font-weight:bolder;    
     padding-left: 30px;
 }
 
