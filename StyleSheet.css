@@ -10,21 +10,36 @@
     margin: 10px;
     
     /* rounded corners to make look like GL cards */
-    border-radius: 0px 25px 25px 0px; 
-    -moz-border-radius: 0px 25px 25px 0px; 
-    -webkit-border-radius: 0px 25px 25px 0px; 
+    border-radius: 0px 45px 45px 0px; 
+    -moz-border-radius: 0px 45px 45px 0px; 
+    -webkit-border-radius: 0px 45px 45px 0px; 
 
     height: 150px;
+    font-weight:bolder;
+    
+    border: 1px solid black;
+    
+    /*
+    background-image: -ms-linear-gradient(left, #64BD49 0%, #75DE56 60%, #EEEEEE 100%);
+    background-image: -moz-linear-gradient(left, #64BD49 0%, #75DE56 60%, #EEEEEE 100%);
+    background-image: -o-linear-gradient(left, #64BD49 0%, #75DE56 60%, #EEEEEE 100%); 
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #64BD49), color-stop(0.6, #75DE56), color-stop(1, #EEEEEE));
+    background-image: -webkit-linear-gradient(left, #64BD49 0%, #75DE56 60%, #EEEEEE 100%);
+    background-image: linear-gradient(to right, #64BD49 0%, #75DE56 60%, #EEEEEE 100%);*/
+    
+    padding-left: 30px;
 }
 
 .cards.red li
 {
      background-color: #f00;
+     font-size: 20px;
 }
 
 .cards.green li
 {
-     background-color: #69d458
+     background-color: #69d458;
+     font-size: 40px;
 }
 
 .cards li div:nth-child(1)
@@ -55,10 +70,10 @@
     border: 1px solid red;
 }
 
-.cards li div:nth-child(2) p {
-    
-    
-     
+.cards li span {
+    height: 130px; 
+    display: table-cell; 
+    vertical-align: bottom
 }
 
  
