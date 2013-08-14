@@ -11,20 +11,23 @@
 
         <script>
   $(function() {
-    $( "#tabs" ).tabs();
+    $('#tabs-min').tabs({ fx: [{opacity:'toggle', duration:'normal'},   // hide option
+                        {opacity:'toggle', duration:'fast'}] }); // show option
   });
   </script>
     </head>
     <body>
-        <div style="display:table-cell; vertical-align:middle; text-align:center">
-            <img src="images/greenlinelogo.png" alt="Greenline logo">
+        <div>
+            <!--<img src="images/greenlinelogo.png" alt="Greenline logo">-->
         </div>
        
-       <div id="tabs" style="background-color: #fff">
-          <ul>
+       <div id="tabs-min">
+          <div>
+           <ul>
             <li><a href="#tabs-1">GREEN</a></li>
             <li><a href="#tabs-2">RED</a></li>
           </ul>
+          </div>
           <div id="tabs-1">
                   <ul class="cards green">
                     <li><span>ENQUIRE</span></li>
